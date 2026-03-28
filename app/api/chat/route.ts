@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 const CIA_API_URL =
   process.env.NEXT_PUBLIC_CIA_API_URL ||
-  'https://qhojuiets3.execute-api.us-east-1.amazonaws.com/test-dt-il-ai-cloud-agent'
+  'https://qhojuiets3.execute-api.us-east-1.amazonaws.com/test-dt-il-ai-cloud-agent/chat'
 
 export async function POST(req: NextRequest) {
   try {
